@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EFVgames</title>
+<meta name="description" content="EFVgames – indie mobile games. Makers of Gravity Dot.">
+<link rel="icon" href="favicon.png">
+<style>
+  :root { --bg:#000; --card:#14172e; --text:#e6e9f5; --muted:#9aa2c0; --blue:#4db8ff; --red:#ff4d5e; --green:#3ddc84; }
+  * { box-sizing:border-box; }
+  body { margin:0; min-height:100vh; background:radial-gradient(circle at 50% 0%, #15183a 0%, var(--bg) 65%); color:var(--text);
+         font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; display:flex; flex-direction:column; align-items:center; }
+  main { width:100%; max-width:640px; padding:32px 16px 48px; text-align:center; }
+  .logo { width:220px; max-width:60vw; height:auto; }
+  h1 { font-size:1.1rem; font-weight:500; color:var(--muted); margin:0 0 32px; }
+  .game { background:var(--card); border-radius:20px; padding:24px; display:flex; gap:20px; align-items:center; text-align:left; }
+  .game img { width:96px; height:96px; border-radius:22px; flex:none; }
+  .game h2 { margin:0; font-size:1.5rem; letter-spacing:.02em; }
+  .game h2 .d { color:var(--blue); } .game h2 .o { color:var(--red); } .game h2 .t { color:var(--green); }
+  .game p { margin:4px 0 0; color:var(--muted); }
+  footer { margin-top:32px; color:var(--muted); font-size:.95rem; }
+  a { color:var(--blue); }
+  @media (max-width:420px) { .game { flex-direction:column; text-align:center; } }
+</style>
+</head>
+<body>
+<main>
+  <img class="logo" src="efvgames-logo.png" alt="EFVgames">
+  <h1>Indie mobile games</h1>
+  <section class="game">
+    <img src="gravity-dot.png" alt="Gravity Dot icon">
+    <div>
+      <h2>GRAVITY <span class="d">D</span><span class="o">O</span><span class="t">T</span></h2>
+      <p>Don't move the ball. Change the world. A neon puzzle game with 150 levels.</p>
+      <p>Coming soon to Google Play.</p>
+    </div>
+  </section>
+  <footer>
+    <a href="privacy/">Privacy Policy / Política de privacidad</a><br>
+    Contact: <a href="mailto:efvdvlpgames@gmail.com">efvdvlpgames@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>
